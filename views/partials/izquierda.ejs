@@ -1,0 +1,30 @@
+<nav class="navbar navbar-default navbar-static-top container" id="con3">
+    <br>
+    <br>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-lg-3 col-md-12">
+				<!-- llenar espacio -->
+				<div class="w3-content w3-section" style="max-width:500px">
+
+						<img class="estilo img-fluid" src="/assets/img/Modelos/chica1.jpg" style="width:270px" id="imagen">
+					  <img class="estilo img-fluid" src="/assets/img/Modelos/chica2.jpg" style="width:270px" id="imagen">
+					  <img class="estilo img-fluid" src="/assets/img/Modelos/chica3.png" style="width:270px" id="imagen">
+				  
+				  </div>
+				  <script>
+					  var myIndex = 0;
+					  carousel();
+					  function carousel() {
+						  var i;
+						  var x = document.getElementsByClassName("estilo");
+						  for (i = 0; i < x.length; i++) {
+							  x[i].style.display = "none";
+						  }
+							  myIndex++;
+						  if (myIndex > x.length) {myIndex = 1}
+							  x[myIndex-1].style.display = "block";
+							  setTimeout(carousel, 2000);
+						  }
+				  </script>
+			</div>

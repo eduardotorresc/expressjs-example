@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Fredericka+the+Great');
+
+* {
+	/*margin: 0;*/
+	box-sizing: border-box;
+}
+
+:focus{
+    outline: none;
+}
+
+.logo{
+	width: 150px;
+	height: 150px;
+}
+
+.header-image::before{
+	content: '';
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+	background:white;
+    opacity: 0.6;
+}
+.header-image{
+	background-image: url('/assets/img/Imagen4.jpg');
+    background-size: cover;
+    background-position: center center
+}
+
+.contenido{position: relative;
+	z-index:2;
+	color: white}
+
+/* #con1{background-color:floralwhite;} */
+/* #con1{background: url("../img/trama.jpg");} */
+#con2{background-color:white;}
+
+
+/* #con1{background: url("../img/portada.jpg");} */
+#con1{background-color:white;}
+#con2{background-color:whitesmoke;}
+#con3{background-color:white;}
+
+/* #con1{background-color:rgb(97, 47, 177);} */
+#con2{background-color:white;}
+/* #con1{background: url("../img/trama.jpg");} */
+/* #con2{background: url("../img/trama5.jpg");} */
+
+#con3{background-color:white;}
+
+.texto {
+    display: flex;
+	align-items: center;
+}
+
+#stilo {
+	font-family: 'Fredericka the Great', cursive;
+	font-weight: bold;
+	color:mediumblue;
+	color: blue;
+	font-size: 50px;
+}
+#estils{color:black}
+
+#txtbarra{
+	font-weight: bold;
+}
+
+.estilo{display: none;}
+
+.estilo1{display: none;}
+
+.grupo {
+	position: absolute;
+	width: 92%;
+}
+
+#imagen{
+	height: 460px;
+	padding-top: 0;
+	/*border: none;*/
+	position: center;
+	top: -15px;
+}
+
+
+.brandingTextCont p {
+	font-size: 0;
+}
+
+.formulario{
+	margin: 25px auto;
+	background:white;
+	border-radius: 10px;
+	overflow: hidden;
+	box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.2);}
+
+.brandingTextCont p {
+	font-size: 0;
+}
+
+form.form_cupon{
+	/* width: 62%; */
+	padding: 30px 40px;
+}
+
+form.form_cupon h2{
+	font-size: 25px;
+	font-weight: 600;
+	font-family: 'message-box';
+	color:darksalmon;
+	margin-bottom: 30px;
+	text-align: center;
+	font-weight: bold;
+}
+
+form.form_cupon .user_info{
+    display: flex;
+	flex-direction: column;
+}
+
+.form_cupon{	
+	margin-right: 20px;
+	color:palevioletred;
+}
+
+.glyphicon{font-size: 30px; }
+
+form.form_cupon label{
+	font-weight:600;
+}
+
+form.form_cupon input{
+	width: 70%;
+    padding: 8px 0px 5px;
+    margin-bottom: 20px;
+
+    border: none;
+    border-bottom: 2px solid #D1D1D1;
+
+    font-family: 'Open sans';
+	color: #5A5A5A;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+form.form_cupon input[type="submit"]{
+    width: 180px;
+	background: #4091EC;
+	padding: 10px;
+	border: none;
+	border-radius: 25px;
+
+    align-self: flex-end;
+
+    color: #fff;
+	font-family: 'Open sans';
+	font-size: 16px;
+	font-weight: 600;
+	cursor: pointer;
+}
+
+form.form_cupon input[type="submit"]:hover{
+    background: #3371B6;
+}
+
+.brandingTextCont p {
+	font-size: 0;
+
+}
